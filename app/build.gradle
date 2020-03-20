@@ -1,0 +1,72 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.mycredit"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.android.support:cardview-v7:28.0.0'
+    implementation 'com.android.support:support-v4:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    // Firebase
+    implementation 'com.google.firebase:firebase-auth:16.1.0'
+    implementation 'com.google.firebase:firebase-database:16.1.0'
+    implementation 'com.google.firebase:firebase-storage:16.1.0'
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    implementation 'com.github.yehiahd:FastSave-Android:1.0.6'
+    implementation 'com.hbb20:ccp:2.2.9'
+    implementation 'com.github.stfalcon:smsverifycatcher:0.3.2'
+    implementation 'com.github.stfalcon:smsverifycatcher:0.3.2'
+    implementation('com.afollestad.material-dialogs:core:0.8.6.2@aar') {
+        transitive = true
+    }
+    testImplementation('com.afollestad.material-dialogs:commons:0.8.6.2@aar') {
+        transitive = true
+    }
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'de.hdodenhof:circleimageview:3.0.0'
+    implementation 'com.github.esafirm.android-image-picker:imagepicker:1.13.1'
+    implementation 'com.github.esafirm.android-image-picker:rximagepicker:1.13.1'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation files('libs/pinchzoom.jar')
+    implementation 'net.objecthunter:exp4j:0.4.4'
+    implementation 'com.github.psinetron:slycalendarview:0.0.9'
+    implementation 'com.github.Akashkamble:RevealSwitch:1.0.1'
+    implementation 'com.github.aabhasr1:OtpView:1.0.6'
+    implementation group: "com.twilio.sdk", name: "twilio", version: "7.40.0"
+    implementation 'org.apache.httpcomponents:httpcore:4.3.3'
+    implementation('org.apache.httpcomponents:httpmime:4.3.6') {
+        exclude module: 'httpclient'
+    }
+    implementation 'com.itextpdf:itextg:5.5.10'
+}
+apply plugin: 'com.google.gms.google-services'

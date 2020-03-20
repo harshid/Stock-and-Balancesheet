@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/_20sdp"
+    android:paddingLeft="@dimen/_20sdp"
+    android:paddingRight="@dimen/_20sdp">
+
+    <EditText
+        android:id="@+id/edtProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/rounded_transaction_background"
+        android:hint="@string/enter_product"
+        android:inputType="text"
+        android:padding="@dimen/_10sdp"
+        android:textSize="@dimen/_12sdp" />
+
+    <EditText
+        android:id="@+id/edtProductPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtProductName"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/rounded_transaction_background"
+        android:hint="@string/enter_price"
+        android:inputType="number"
+        android:padding="@dimen/_10sdp"
+        android:textSize="@dimen/_12sdp" />
+
+    <TextView
+        android:id="@+id/txtAddProductFirebase"
+        style="@style/RippleEffect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtProductPrice"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:background="@drawable/rounded_corner_green"
+        android:gravity="center"
+        android:padding="@dimen/_10sdp"
+        android:text="@string/add_product"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12sdp" />
+</RelativeLayout>
