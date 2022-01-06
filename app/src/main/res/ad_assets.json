@@ -1,0 +1,109 @@
+{
+  "apps": [
+    {
+      "app_title": "12GB RAM Booster",
+      "app_desc": "One Touch 12GB RAM Booster",
+      "app_icon": "https://firebasestorage.googleapis.com/v0/b/houseads-8b9f1.appspot.com/o/12GB_RAM_Booster_app_icon.png?alt=media&token=3b3ce875-f8c6-49db-a8a3-d0783ef1f850",
+      "app_header_image": "https://firebasestorage.googleapis.com/v0/b/houseads-8b9f1.appspot.com/o/12GB_RAM_Booster_promo.png?alt=media&token=7ad7ae48-1f40-4615-bbae-611de5fe8dcc",
+      "app_uri": "com.rambooster12gb",
+      "app_rating": "4.5",
+      "app_cta_text": "Install",
+      "app_price": "Free",
+      "app_adType": "dialog"
+    },
+    {
+      "app_title": "GB Whats Version 2022",
+      "app_desc": "GB Whatsapp Version 2022 is an app which got many feature tools in one place.",
+      "app_icon": "https://firebasestorage.googleapis.com/v0/b/houseads-8b9f1.appspot.com/o/gb_version_2022_app_icon.png?alt=media&token=e2c414cc-a6f6-4180-b0c1-37cd36281562",
+      "app_header_image": "https://firebasestorage.googleapis.com/v0/b/houseads-8b9f1.appspot.com/o/gb_version_2022_promo.png?alt=media&token=ed1cd270-0192-44ea-9968-8c8f71dce10f",
+      "app_uri": "com.status.saver.app2021",
+      "app_rating": "4.5",
+      "app_cta_text": "Install",
+      "app_price": "Free",
+      "app_adType": "dialog"
+    },
+    {
+      "app_title": "Happy new year photo frame 2022",
+      "app_desc": "Different Category Of New Year Frame And Different New Year Sticker Pack.",
+      "app_icon": "https://firebasestorage.googleapis.com/v0/b/houseads-8b9f1.appspot.com/o/happy_new_year_photo_frame_app_icon.png?alt=media&token=087115f3-98cf-4e96-93ed-4df320b3f78c",
+      "app_header_image": "https://firebasestorage.googleapis.com/v0/b/houseads-8b9f1.appspot.com/o/happy_new_year_photo_frame_promo.jpg?alt=media&token=edec6d40-86a2-49c8-9a6a-f8d4d744c010",
+      "app_uri": "newyear.photoframe.happynewyear",
+      "app_rating": "4.5",
+      "app_cta_text": "Install",
+      "app_price": "Free",
+      "app_adType": "dialog"
+    },
+    {
+      "app_title": "Republic Day Photo Editor",
+      "app_desc": "App that lets you customize your photo for Republic Day!",
+      "app_icon": "https://firebasestorage.googleapis.com/v0/b/houseads-8b9f1.appspot.com/o/republic_day_photo_editor_app_icon.png?alt=media&token=a732185a-432d-4dc5-8879-e77e10ce7914",
+      "app_header_image": "https://firebasestorage.googleapis.com/v0/b/houseads-8b9f1.appspot.com/o/republic_photo_editor_promo.png?alt=media&token=4107f7e2-c271-43a3-9e09-565ef508b71f",
+      "app_uri": "com.photoeditor.photoframe.editor",
+      "app_rating": "4.3",
+      "app_cta_text": "Install",
+      "app_price": "Free",
+      "app_adType": "dialog"
+    },
+    {
+      "app_title": "Republic Day Photo Frame",
+      "app_desc": "App that lets you customize your photo for Republic Day!",
+      "app_icon": "https://firebasestorage.googleapis.com/v0/b/houseads-8b9f1.appspot.com/o/republic_photo_frame_app_icon.png?alt=media&token=63191497-7a55-427f-a4e0-62f0888d8b6c",
+      "app_header_image": "https://firebasestorage.googleapis.com/v0/b/houseads-8b9f1.appspot.com/o/republic_photo_frame_promo.png?alt=media&token=931dc9ba-d47b-4ae6-91d9-8af0942bf7ef",
+      "app_uri": "com.photoframe.newyearapp.photoeditor",
+      "app_rating": "4.3",
+      "app_cta_text": "Install",
+      "app_price": "Free",
+      "app_adType": "dialog"
+    },
+    {
+      "app_interstitial_url": "@drawable/interstitial",
+      "app_uri": "https://www.lazygeniouz.com",
+      "app_adType": "interstitial"
+    },
+    {
+      "app_interstitial_url": "@drawable/interstitial_one",
+      "app_uri": "https://www.lazygeniouz.com",
+      "app_adType": "interstitial"
+    },
+    {
+      "app_title": "Example App",
+      "app_desc": "This is an Example Ad..",
+      "app_icon": "@drawable/focus_icon",
+      "app_uri": "com.example",
+      "app_rating": "4.3",
+      "app_cta_text": "Install",
+      "app_price": "Free",
+      "app_adType": "native"
+    },
+    {
+      "app_title": "Status Saver",
+      "app_desc": "An Easy, Fast & Simple App to save WhatsApp Image & Video Statuses ",
+      "app_icon": "@drawable/status_saver_icon",
+      "app_uri": "com.lazygeniouz.saveit",
+      "app_rating": "4.6",
+      "app_cta_text": "Install",
+      "app_price": "Free",
+      "app_adType": "native"
+    },
+    {
+      "app_title": "TexWalls!",
+      "app_desc": "A Simple App to create Simplistic Text Based Wallpapers!",
+      "app_icon": "@drawable/texwalls_icon",
+      "app_uri": "com.lazygeniouz.tex",
+      "app_rating": "4.7",
+      "app_cta_text": "Install",
+      "app_price": "Free",
+      "app_adType": "native"
+    },
+    {
+      "app_title": "InSaver",
+      "app_desc": "InSaver is a Simple and a Compact App which helps you in Downloading the Stories & Display Picture (DP) of 'Any' Instagram User!",
+      "app_icon": "@drawable/insaver_icon",
+      "app_uri": "com.lazygeniouz.instadp",
+      "app_rating": "4.3",
+      "app_cta_text": "Install",
+      "app_price": "Free",
+      "app_adType": "native"
+    }
+  ]
+}
